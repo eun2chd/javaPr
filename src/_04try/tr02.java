@@ -41,6 +41,11 @@ public class tr02 {
 			
 			for(int i = 0; i < size; i++ ) {
 				int num = list.get(i);
+				
+				// sameList 안에 num 이 있다면 true -> false 로 변경 
+				// num 값이 없으면 false -> true 로 바뀜
+				
+				
 				if(list.indexOf(num) != list.lastIndexOf(num) && !sameList.contains(num)) {
 					sameList.add(num);
 					
