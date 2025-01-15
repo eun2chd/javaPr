@@ -1,4 +1,4 @@
-package quiz;
+package quiz.q01;
 
 public class Book {
 	private String title;
